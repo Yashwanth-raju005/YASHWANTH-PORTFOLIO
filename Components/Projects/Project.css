@@ -1,0 +1,99 @@
+.card-sub{
+    border: 2px solid black;
+    width: 370px;
+    margin-left: 30px;
+    margin-top: 90px;
+    border-radius: 14px;
+    height: 450px;
+}
+
+
+.main-card{
+    padding: 0px 40px 0px 40px;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    column-gap: 100px;
+}
+
+.card-details>details>p{
+    height: 100px;
+    overflow-y: scroll;
+    color: brown;
+}
+
+.card-details>details>summary{
+    color: black;
+    
+}
+
+.card-details>details>p::-webkit-scrollbar{
+    display: none;
+}
+
+
+.main-card::-webkit-scrollbar{
+    display: none;
+}
+
+
+.card-img>img{
+    width: 367px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    
+}
+
+.card-techstacks{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tech-icons>i{
+    font-size: 30px;
+}
+
+.card-title{
+    padding-left: 3px;
+    padding-top: 19px;
+}
+
+.card-details{
+    padding-top: 15px;
+    padding-left: 7px;
+
+}
+
+.card-techstacks{
+    padding: 0px 4px 0px 4px;
+}
+
+
+.card-img:hover{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    transition: .23s;
+    transform: scale(1.2);
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+
+.tech-icons:hover{
+    color: rgb(79, 79, 138);
+}
+
+
+.card-btn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+
+
+
