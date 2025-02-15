@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Header from "../Components/Header/Header";
-
+import React from "react";
 import Home from "../Components/Home/Home";
 import About from "../Components/About/About";
 import Skills from "../Components/Skills/Skills";

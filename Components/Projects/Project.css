@@ -1,144 +1,122 @@
-.card-sub{
-    border: 2px solid black;
-    width: 370px;
-    margin-left: 30px;
-    margin-top: 90px;
-    border-radius: 14px;
-    height: 450px;
+.card-sub {
+  border: 2px solid black;
+  width: 370px;
+  margin-left: 30px;
+  margin-top: 90px;
+  border-radius: 14px;
+  height: 450px;
 }
 
-
-.main-card{
-    padding: 0px 70px 0px 40px;
-    display: grid;
-   grid-template-columns: repeat(3,1fr);
-    column-gap: 100px;
+.main-card {
+  padding: 0px 70px 0px 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 100px;
 }
 
-.card-details>details>p{
-    height: 100px;
-    overflow-y: scroll;
-    color: brown;
+.card-details > details > p {
+  height: 100px;
+  overflow-y: scroll;
+  color: brown;
 }
 
-.card-details>details>summary{
-    color: black;
-    
+.card-details > details > summary {
+  color: black;
 }
 
-.card-details>details>p::-webkit-scrollbar{
-    display: none;
+.card-details > details > p::-webkit-scrollbar {
+  display: none;
 }
 
-
-.main-card::-webkit-scrollbar{
-    display: none;
+.main-card::-webkit-scrollbar {
+  display: none;
 }
 
-
-.card-img>img{
-    width: 367px;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    
+.card-img > img {
+  width: 367px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
 }
 
-.card-techstacks{
-    color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+.card-techstacks {
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.tech-icons>i{
-    font-size: 30px;
+.tech-icons > i {
+  font-size: 30px;
 }
 
-.card-title{
-    padding-left: 3px;
-    padding-top: 19px;
+.card-title {
+  padding-left: 3px;
+  padding-top: 19px;
 }
 
-.card-details{
-    padding-top: 15px;
-    padding-left: 7px;
-
+.card-details {
+  padding-top: 15px;
+  padding-left: 7px;
 }
 
-.card-techstacks{
-    padding: 0px 4px 0px 4px;
+.card-techstacks {
+  padding: 0px 4px 0px 4px;
 }
 
-
-.card-img:hover{
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
-    transition: .23s;
-    transform: scale(1.2);
-    border: 1px solid grey;
-    cursor: pointer;
+.card-img:hover {
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  transition: 0.23s;
+  transform: scale(1.2);
+  border: 1px solid grey;
+  cursor: pointer;
 }
 
-
-.tech-icons:hover{
-    color: rgb(79, 79, 138);
+.tech-icons:hover {
+  color: rgb(79, 79, 138);
 }
 
-
-.card-btn{
-    background-color: purple;
-    color: white;
-    border-radius: 5px;
-    padding: 4px;
-}
-
-
-@media screen and (max-width: 431px) {
-    .main-card {
-        display: flex;
-        flex-direction: column;
-    }
+.card-btn {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding: 4px;
 }
 
 @media screen and (max-width: 576px) {
-
-    .main-card{
-        /* padding: 0px 40px 0px 40px; */
-        padding-right: 60px;
-        display: grid;
-       grid-template-columns:repeat(1,1fr) ;
-       
-        /* column-gap: 100px; */
-    }
-    
-
-
-}
-
-@media screen and (max-width: 768px) {
-    .main-card{
-        padding-right: 60px;
-        display: grid;
-       grid-template-columns:repeat(2,1fr) ;
-       align-items: center;
-        /* column-gap: 100px; */
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-    .main-card{
-        /* padding: 0px 40px 0px 40px; */
-        padding-right: 60px;
-        display: grid;
-       grid-template-columns:repeat(2,1fr) ;
-        /* column-gap: 100px; */
-    }
-   
+  .main-card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 40px;
+  }
+  .project-head {
+    font-size: 22px;
+    margin-left: 100px;
+  }
+  .footer {
+    margin-left: 70px;
   }
 
+  .project-head {
+    font-size: 25px;
+    margin-left: 200px;
+  }
+}
 
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .project-head h2 {
+    margin-left: 400px;
+    font-size: 40px;
+  }
+  .project-head p {
+    margin-left: 400px;
+    font-size: 20px;
+  }
 
-
-
+  .main-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 100px;
+  }
+}

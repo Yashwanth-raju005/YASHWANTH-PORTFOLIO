@@ -110,3 +110,35 @@
 .footer {
   padding: 40px 0px 10px 0px;
 }
+
+@media screen and (max-width: 576px) {
+  .contact-form-container {
+    min-width: 600px;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group input {
+    min-width: 400px;
+  }
+  .contact-head {
+    font-size: 25px;
+    margin-left: 200px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .contact-head h2 {
+    margin-left: 500px;
+    font-size: 40px;
+  }
+  .contact-head p {
+    margin-left: 500px;
+    font-size: 20px;
+  }
+  .contact-form-container {
+    margin-left: 120px;
+    min-width: 1000px;
+  }
+}
