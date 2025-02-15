@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
-import './home.css'
-
+import "./home.css";
 
 const Data = () => {
   return (
@@ -13,9 +12,9 @@ const Data = () => {
         React for front-end development and Node.js for back-end solutions.
       </p>
 
-      <a href="#contact" className="button button--flex">
+      <a href="#contact" className="button button--flex ">
         Say Hello!&nbsp;&nbsp;&nbsp;&nbsp;
-        <i className="uil uil-message"></i>
+        <i className="uil uil-message z-1000"></i>
       </a>
     </div>
   );

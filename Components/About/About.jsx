@@ -2,8 +2,8 @@
 import React from "react";
 import "./about.css";
 import MYPIC from "../../src/assets/MYPIC.jpg";
-import Google_Resume from "../../src/assets/Google_Resume.pdf";
 import Info from "./Info";
+import Resume from "../../src/assets/Resume.pdf";
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
             digital experiences tailored to user needs.
           </p>
 
-          <a target="_blank" href={Google_Resume} className="button button--flex">
+          <a target="_blank" href={Resume} className="button button--flex">
             Download CV <i className="uil uil-file"></i>
           </a>
         </div>
